@@ -25,13 +25,13 @@ const ContactUs = () => {
             </div>
           </footer>
 
-          <form className=' pb-8 pt-2 px-8 basis-6/6 lg:basis-4/6 flex flex-col text-white border-green-500 border-2 rounded-2xl'>
+          <form className=' pb-8 pt-2 px-8 basis-6/6 lg:basis-4/6 flex flex-col text-white border-2 rounded-2xl'>
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-2 border-gray-800' placeholder='Full Name' type="text" name="Full Name" id="" />
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-2 border-gray-800' placeholder='Email' type="email" name="Email" id="" />
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-2 border-gray-800' placeholder='Mobile Number' type="number" name="" id="" />
             <div className=' text-base lg:text-lg font-light mt-4 flex flex-col lg:flex-row gap-4 pr-4 justify-between w-full '>
                 <textarea className=' border-gray-800 border-b-2 py-2 px-4 text-base lg:text-lg' placeholder='Your Message' cols="50" rows="3" name="Your Message" id=""></textarea>
-                <button className=' text-sm cursor-pointer px-4 lg:px-8 py-2 text-black font-medium rounded-2xl h-fit self-end' style={{ backgroundColor: primaryColor }}>Send Message</button>
+                <button className=' text-sm cursor-pointer px-4 lg:px-8 py-2 text-black font-medium rounded-2xl h-fit self-end' style={{ backgroundColor: primaryColor, borderColor: primaryColor }}>Send Message</button>
             </div>
           </form>
 

@@ -18,10 +18,10 @@ const ContactUs = () => {
             <p className=' text-lg'>Harare</p>
             <p className=' text-lg mt-8'>infor@appletreepayments.com</p>
             <ul className=' flex gap-4 mt-2 py-2 px-4'>
-                <li><a href="#"><img width={'40px'} height={'40px'} src="/public/social-media/social-facebook.png" alt="facebook link" /></a></li>
-                <li><a href="#"><img width={'40px'} height={'40px'} src="/public/social-media/social-instagram.png" alt="instagram link" /></a></li>
-                <li><a href="#"><img width={'40px'} height={'40px'} src="/public/social-media/social-linkedin.png" alt="linkedin link" /></a></li>
-                <li><a href="#"><img width={'40px'} height={'40px'} src="/public/social-media/social-x.png" alt="X(Twitter) link" /></a></li>
+                <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-facebook.png" alt="facebook link" /></a></li>
+                <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-instagram.png" alt="instagram link" /></a></li>
+                <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-linkedin.png" alt="linkedin link" /></a></li>
+                <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-x.png" alt="X(Twitter) link" /></a></li>
             </ul>
           </footer>
 

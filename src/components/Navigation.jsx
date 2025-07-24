@@ -10,7 +10,7 @@ const Navigation = () => {
     <nav className=' fixed top-0 left-0 right-0 bg-black flex justify-between items-center px-4 h-18'>
       <img className=' cursor-pointer h-14 md:h-18 mt-4 md:mt-8 w-auto' src="/appletree-payments-logo-white.png" alt="" />
 
-      <ul className=' hidden lg:flex gap-8 text-lg pr-4' style={{ color: textColor }}>
+      <ul className=' hidden lg:flex gap-8 text-base pr-4' style={{ color: textColor }}>
         <li className=' hover:text-green-800 hover:scale-105'><a href="#payment-solutions">Payment Solutions</a></li>
         <li className=' hover:text-green-800 hover:scale-105'><a href="#use-cases">Use Cases</a></li>
         <li className=' hover:text-green-800 hover:scale-105'><a href="#payment-methods">Payment Methods</a></li>

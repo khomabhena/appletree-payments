@@ -11,7 +11,7 @@ const ContactUs = () => {
       <section className=' flex flex-col-reverse lg:flex-row w-full md:w-full lg:w-fit mt-12 px-4 lg:px-24 gap-8'>
 
           <footer className=' text-white basis-2/6 '>
-            <h4 className=' text-2xl font-medium' style={{ color: primaryColor }}>Zimbabwe</h4>
+            <p className=' text-2xl font-medium' style={{ color: primaryColor }}>Zimbabwe</p>
             <p className=' mt-8 text-lg'>Appletree Digital Commerce</p>
             <p className=' text-lg'>191 Enterprise Road</p>
             <p className=' text-lg'>Chisipite</p>

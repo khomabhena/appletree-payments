@@ -12,7 +12,7 @@ const PaymentSolutions = () => {
     <section id='payment-solutions' className=' flex flex-col items-center mt-8 mx-2 md:mx-4'>
       <h2 className=' mt-8 text-base md:text-2xl lg:text-3xl font-bold'>Payment Solutions</h2>
       
-      <h3 style={{ color: textLight }} className=' mt-2 text-center text-sm md:text-2xl lg:text-3xl font-extralight'>We've got everything you need to launch <br />and scale your business</h3>
+      <p style={{ color: textLight }} className=' mt-2 text-center text-sm md:text-2xl lg:text-3xl font-extralight'>We've got everything you need to launch <br />and scale your business</p>
       
       <article 
         style={{ backgroundColor: colorPrimary }} 

@@ -17,20 +17,20 @@ const ContactUs = () => {
             <p className=' text-lg'>Chisipite</p>
             <p className=' text-lg'>Harare</p>
             <p className=' text-lg mt-8'>infor@appletreepayments.com</p>
-            <div className=' flex gap-4 mt-2 py-2 rounded-xl px-4'>
-                <p>fb</p>
-                <p>Ins</p>
-                <p>X</p>
-                <p>In</p>
-            </div>
+            <ul className=' flex gap-4 mt-2 py-2 px-4'>
+                <li><a href="#"><img width={'40px'} height={'40px'} src="/public/social-media/social-facebook.png" alt="facebook link" /></a></li>
+                <li><a href="#"><img width={'40px'} height={'40px'} src="/public/social-media/social-instagram.png" alt="instagram link" /></a></li>
+                <li><a href="#"><img width={'40px'} height={'40px'} src="/public/social-media/social-linkedin.png" alt="linkedin link" /></a></li>
+                <li><a href="#"><img width={'40px'} height={'40px'} src="/public/social-media/social-x.png" alt="X(Twitter) link" /></a></li>
+            </ul>
           </footer>
 
-          <form className=' pb-8 pt-2 px-8 basis-6/6 lg:basis-4/6 flex flex-col text-white border-2 rounded-2xl'>
-            <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-2 border-gray-800' placeholder='Full Name' type="text" name="Full Name" id="" />
-            <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-2 border-gray-800' placeholder='Email' type="email" name="Email" id="" />
-            <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-2 border-gray-800' placeholder='Mobile Number' type="number" name="" id="" />
+          <form className=' pb-8 pt-2 px-8 basis-6/6 lg:basis-4/6 flex flex-col text-white border-2 rounded-2xl' style={{ borderColor: primaryColor }}>
+            <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Full Name' type="text" name="Full Name" id="" />
+            <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Email' type="email" name="Email" id="" />
+            <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Mobile Number' type="number" name="" id="" />
             <div className=' text-base lg:text-lg font-light mt-4 flex flex-col lg:flex-row gap-4 pr-4 justify-between w-full '>
-                <textarea className=' border-gray-800 border-b-2 py-2 px-4 text-base lg:text-lg' placeholder='Your Message' cols="50" rows="3" name="Your Message" id=""></textarea>
+                <textarea className=' border-b-2 border-gray-800 py-2 px-4 text-base lg:text-lg' placeholder='Your Message' cols="50" rows="3" name="Your Message" id=""></textarea>
                 <button className=' text-sm cursor-pointer px-4 lg:px-8 py-2 text-black font-medium rounded-2xl h-fit self-end' style={{ backgroundColor: primaryColor, borderColor: primaryColor }}>Send Message</button>
             </div>
           </form>

@@ -16,11 +16,11 @@ const MobileNavigation = () => {
       </div>
     
       <ul className={`bg-black flex flex-col h-full mt-12 md:pl-8 items-center md:items-start gap-y-8 text-base md:text-xl lg:text-2xl`} style={{color: textColor}}>
-        <li><a href="">Payment Solutions</a></li>
-        <li><a href="">Use Cases</a></li>
-        <li><a href="">Payment Methods</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#payment-solutions">Payment Solutions</a></li>
+        <li><a href="#use-cases">Use Cases</a></li>
+        <li><a href="#payment-methods">Payment Methods</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
     </nav>

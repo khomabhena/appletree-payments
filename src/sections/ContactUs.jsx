@@ -5,7 +5,7 @@ const ContactUs = () => {
     const primaryColor = colors.primaryColor
 
   return (
-    <section id='contact-us' className=' flex flex-col bg-black items-center mt-16 pb-24' >
+    <section id='contact' className=' flex flex-col bg-black items-center mt-16 pb-24' >
       <h2 className=' mt-8 text-xl text-white md:text-2xl lg:text-3xl font-bold'>Contact Us</h2>
 
       <section className=' flex flex-col-reverse lg:flex-row w-full md:w-full lg:w-fit mt-12 px-4 lg:px-24 gap-8'>

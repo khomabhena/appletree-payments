@@ -52,22 +52,22 @@
 /* width */
 .payment-method-scroll::-webkit-scrollbar {
   width: 0px;
-  height: 0px;
+  height: 10px;
 }
 
 /* Track */
 .payment-method-scroll::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 0px #a0d900;
   border-radius: 0px;
 }
 
 /* Handle */
 .payment-method-scroll::-webkit-scrollbar-thumb {
-  background: red;
+  background: #a0d900;
   border-radius: 0px;
 }
 
 /* Handle on hover */
 .payment-method-scroll::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
+  background: #a0d900;
 }

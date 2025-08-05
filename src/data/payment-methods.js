@@ -12,12 +12,20 @@ const paymentMethodsOffered = [
         title: 'Orange',
     },
     {
+        image: '/payment-methods/inn-bucks.png',
+        title: 'MPesa',
+    },
+    {
         image: '/payment-methods/one-money2.png',
         title: 'Vodapay',
     },
     {
-        image: '/payment-methods/o-mari.png',
+        image: '/payment-methods/o-mari2.png',
         title: 'tigopesa',
+    },
+    {
+        image: '/payment-methods/telecash.png',
+        title: 'MPesa',
     },
     {
         image: '/payment-methods/zipit.png',
@@ -26,14 +34,6 @@ const paymentMethodsOffered = [
     {
         image: '/payment-methods/zim-switch.png',
         title: 'Airtel',
-    },
-    {
-        image: '/payment-methods/inn-bucks.png',
-        title: 'MPesa',
-    },
-    {
-        image: '/payment-methods/telecash.png',
-        title: 'MPesa',
     },
     {
         image: '/payment-methods/american-express.png',

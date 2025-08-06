@@ -7,7 +7,7 @@ const HeroHeading = () => {
     const accent = colors.accentColor
 
   return (
-    <div className=' flex flex-col justify-end h-full'>
+    <div className=' flex flex-col justify-center h-full'>
       <h1 style={{ color: accent }} className=' mt-12 md:mt-0 text-xl md:text-4xl lg:text-6xl font-bold'>Unlocking 
         <span style={{color: textColor}}> Africa's</span> 
         <br />Potential Through <br />

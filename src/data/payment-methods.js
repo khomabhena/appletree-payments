@@ -20,24 +20,8 @@ const paymentMethodsOffered = [
         title: 'Alipay',
     },
     {
-        image: '/payment-methods/wechat-pay.png',
-        title: 'WeChat Pay',
-    },
-    {
-        image: '/payment-methods/m-pesa.png',
+        image: '/payment-methods/m-pesa2.png',
         title: 'M-Pesa',
-    },
-    {
-        image: '/payment-methods/mo-mo.png',
-        title: 'MoMo',
-    },
-    {
-        image: '/payment-methods/orange-money.png',
-        title: 'Orange Money',
-    },
-    {
-        image: '/payment-methods/mo-mo.png',
-        title: 'MoMo',
     },
     {
         image: '/payment-methods/mtn.png',
@@ -50,6 +34,22 @@ const paymentMethodsOffered = [
     {
         image: '/payment-methods/tigo-pesa.png',
         title: 'Tigo Pesa',
+    },
+    {
+        image: '/payment-methods/mo-mo.png',
+        title: 'MoMo',
+    },
+    {
+        image: '/payment-methods/paga.png',
+        title: 'Paga',
+    },
+    {
+        image: '/payment-methods/wechat-pay.png',
+        title: 'WeChat Pay',
+    },
+    {
+        image: '/payment-methods/orange-money.png',
+        title: 'Orange Money',
     },
     {
         image: '/payment-methods/wave.png',
@@ -128,10 +128,6 @@ const paymentMethodsOffered = [
     {
         image: '/payment-methods/o-mari2.png',
         title: 'O-Mari',
-    },
-    {
-        image: '/payment-methods/paga.png',
-        title: 'Paga',
     },
     {
         image: '/payment-methods/zamtel.png',

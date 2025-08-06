@@ -21,13 +21,13 @@ const HeroHeading = () => {
             <p className=' text-gray-400 mt-4 md:mt-8 text-xs md:text-sm lg:text-base'>For: Websites | Apps | Crowdfunding | Marketplaces | Platforms | Fintechs</p>
           </section>
 
-          <div className=' flex gap-2 mt-8 mb-8'>
-              <HeroIcons image={'pointer-icons/pointer-icons-01.png'} />
-              <HeroIcons image={'pointer-icons/pointer-icons-02.png'} />
-              <HeroIcons image={'pointer-icons/pointer-icons-03.png'} />
-              <HeroIcons image={'pointer-icons/pointer-icons-04.png'} />
-              <HeroIcons image={'pointer-icons/pointer-icons-05.png'} />
-              <HeroIcons image={'pointer-icons/pointer-icons-06.png'} />
+          <div className=' flex gap-4 mt-8 mb-8'>
+              <HeroIcons image={'pointer-icons/pointer-icons-01.png'} title={"Signup"} link={""} />
+              <HeroIcons image={'pointer-icons/pointer-icons-02.png'} title={"Login"} link={""} />
+              <HeroIcons image={'pointer-icons/pointer-icons-03.png'} title={"Sandbox"} link={""} />
+              <HeroIcons image={'pointer-icons/pointer-icons-04.png'} title={"Integrate"} link={""} />
+              <HeroIcons image={'pointer-icons/pointer-icons-05.png'} title={"Platforms"} link={""} />
+              <HeroIcons image={'pointer-icons/pointer-icons-06.png'} title={"Invoice"} link={""} />
           </div>
           
       </section>

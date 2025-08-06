@@ -32,3 +32,7 @@ const pointerData = [
 ]
 
 export default pointerData
+
+
+
+

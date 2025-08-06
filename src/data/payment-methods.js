@@ -16,10 +16,6 @@ const paymentMethodsOffered = [
         title: 'American Express',
     },
     {
-        image: '/payment-methods/express-union.png',
-        title: 'Express Union',
-    },
-    {
         image: '/payment-methods/alipay.png',
         title: 'Alipay',
     },
@@ -119,6 +115,10 @@ const paymentMethodsOffered = [
     {
         image: '/payment-methods/moov-africa.png',
         title: 'Moov Africa',
+    },
+    {
+        image: '/payment-methods/express-union.png',
+        title: 'Express Union',
     },
     {
         image: '/payment-methods/movitel.png',

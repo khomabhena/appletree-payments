@@ -26,7 +26,7 @@ const paymentSolutionsData = [
     },
     {
         image: '/payment-solutions-icons/icon-06.png',
-        title: 'Digital Wallets',
+        title: 'Realtime Payments',
         desc: 'Send and receive electronic payments instantly',
     },
     {
@@ -37,7 +37,7 @@ const paymentSolutionsData = [
     {
         image: '/payment-solutions-icons/icon-08.png',
         title: 'Outbound Payouts',
-        desc: 'fast, flexible, smooth payout flows and mass payouts',
+        desc: 'Fast, flexible, smooth payout flows and mass payouts',
     },
 ]
 

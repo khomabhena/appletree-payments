@@ -126,7 +126,7 @@ const paymentMethodsOffered = [
     },
     
     {
-        image: '/payment-methods/omari2.png',
+        image: '/payment-methods/o-mari2.png',
         title: 'O-Mari',
     },
     {

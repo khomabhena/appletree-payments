@@ -7,15 +7,18 @@ const HeroHeading = () => {
     const accent = colors.accentColor
 
   return (
-    <div className=' flex flex-col justify-center h-full'>
+    <div className=' flex flex-col justify-end h-full'>
       <h1 style={{ color: accent }} className=' mt-12 md:mt-0 text-xl md:text-4xl lg:text-6xl font-bold'>Activating
         <span style={{color: textColor}}> Africa's</span> 
         <br /><p></p><span style={{color: textColor}}>Digital</span>
         <span> Economy</span></h1>
+        <section>
+            <p className=' text-gray-300 mt-2 mb-12 md:mt-8 text-xs md:text-sm lg:text-xl'>Your gateway to Africa's digital economy, enabling seamless<br />collections and payouts across the continent and beyond</p>
+          </section>
       
       <section className=' w-full'>
-          <section style={{ color: accent }}>
-            <p className=' mt-4 md:mt-8 text-xs md:text-sm lg:text-lg'>For: Websites | Apps | Crowdfunding | Marketplaces | Platforms | Fintechs</p>
+          <section>
+            <p className=' text-gray-400 mt-4 md:mt-8 text-xs md:text-sm lg:text-base'>For: Websites | Apps | Crowdfunding | Marketplaces | Platforms | Fintechs</p>
           </section>
 
           <div className=' flex gap-2 mt-8 mb-8'>

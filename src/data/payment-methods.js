@@ -16,6 +16,10 @@ const paymentMethodsOffered = [
         title: 'American Express',
     },
     {
+        image: '/payment-methods/paypal.png',
+        title: 'Paypal',
+    },
+    {
         image: '/payment-methods/alipay.png',
         title: 'Alipay',
     },

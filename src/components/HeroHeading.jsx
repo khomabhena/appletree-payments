@@ -8,10 +8,10 @@ const HeroHeading = () => {
 
   return (
     <div className=' flex flex-col justify-center h-full'>
-      <h1 style={{ color: accent }} className=' mt-12 md:mt-0 text-xl md:text-4xl lg:text-6xl font-bold'>Unlocking 
+      <h1 style={{ color: accent }} className=' mt-12 md:mt-0 text-xl md:text-4xl lg:text-6xl font-bold'>Activating
         <span style={{color: textColor}}> Africa's</span> 
-        <br />Potential Through <br />
-        <span style={{color: textColor}}>Financial Inclusion</span></h1>
+        <br /><p></p><span style={{color: textColor}}>Digital</span>
+        <span> Economy</span></h1>
       
       <section className=' w-full'>
           <section style={{ color: accent }}>

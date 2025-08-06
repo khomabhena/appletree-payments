@@ -4,6 +4,14 @@ const paymentMethodsOffered = [
         title: 'Union Pay',
     },
     {
+        image: '/payment-methods/visa.png',
+        title: 'Visa',
+    },
+    {
+        image: '/payment-methods/mastercard.png',
+        title: 'Mastercard',
+    },
+    {
         image: '/payment-methods/american-express.png',
         title: 'American Express',
     },
@@ -18,14 +26,6 @@ const paymentMethodsOffered = [
     {
         image: '/payment-methods/wechat-pay.png',
         title: 'WeChat Pay',
-    },
-    {
-        image: '/payment-methods/visa.png',
-        title: 'Visa',
-    },
-    {
-        image: '/payment-methods/mastercard.png',
-        title: 'Mastercard',
     },
     {
         image: '/payment-methods/m-pesa.png',

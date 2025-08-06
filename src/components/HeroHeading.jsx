@@ -15,7 +15,7 @@ const HeroHeading = () => {
       
       <section className=' w-full'>
           <section style={{ color: accent }}>
-            <p className=' mt-4 md:mt-8 text-xs md:text-sm lg:text-lg'>For: Websites | Apps | Crowdfunding | Market Places | Platforms | Fintechs</p>
+            <p className=' mt-4 md:mt-8 text-xs md:text-sm lg:text-lg'>For: Websites | Apps | Crowdfunding | Marketplaces | Platforms | Fintechs</p>
           </section>
 
           <div className=' flex gap-2 mt-8 mb-8'>

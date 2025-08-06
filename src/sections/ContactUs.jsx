@@ -16,7 +16,7 @@ const ContactUs = () => {
             <p className=' text-lg'>191 Enterprise Road</p>
             <p className=' text-lg'>Chisipite</p>
             <p className=' text-lg'>Harare</p>
-            <p className=' text-lg mt-8'>infor@appletreepayments.com</p>
+            <p className=' text-lg mt-8'>info@appletreepayments.com</p>
             <ul className=' flex gap-4 mt-2 py-2 px-4'>
                 <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-facebook.png" alt="facebook link" /></a></li>
                 <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-instagram.png" alt="instagram link" /></a></li>
@@ -25,7 +25,7 @@ const ContactUs = () => {
             </ul>
           </footer>
 
-          <form className=' pb-8 pt-2 px-8 basis-6/6 lg:basis-4/6 flex flex-col text-white border-2 rounded-2xl' style={{ borderColor: primaryColor }}>
+          <form className=' pb-8 pt-2 px-8 basis-6/6 lg:basis-4/6 flex flex-col text-white border-1 rounded-2xl' style={{ borderColor: primaryColor }}>
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Full Name' type="text" name="Full Name" id="" />
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Email' type="email" name="Email" id="" />
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Mobile Number' type="number" name="" id="" />

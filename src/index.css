@@ -11,6 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+  scroll-margin-top: 64px;
+}
+
 .swiper {
   width: 100%;
   height: 100%;

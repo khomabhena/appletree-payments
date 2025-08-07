@@ -6,11 +6,11 @@ const Footer = () => {
     const data = getFooterData
 
   return (
-    <footer className=' bg-black pt-24 min-h-60 w-full max-w-[1920px] text-white'>
+    <footer className=' bg-black pt-24 max-w-[1920px] text-white px-4 lg:px-24 '>
         <div className=' w-full flex flex-wrap md:flex-nowrap gap-8 justify-evenly'>
         {
             data?.map(({title, pages}) => (
-                <section className=' px-4 md:px-8 basis-full w-full'>
+                <section className=' bg-red-600f basis-full md:basis-auto '>
                     <h6 style={{color: colors.primaryColor}} className=' text-xl'>{title}</h6>
                     <div className=' text-base mt-8'>
                         {
@@ -23,7 +23,7 @@ const Footer = () => {
             ))
         }
         </div>
-        <p className=' mt-24 w-full text-center text-sm pb-8'>&copy; Copyright Appletree Payments { new Date().getFullYear() }. <br />All rights reserved</p>
+        <p className=' mt-24 w-full text-center text-sm pb-8'>&copy; Copyright Appletree Payments { new Date().getFullYear() }. All rights reserved</p>
     </footer>
   )
 }

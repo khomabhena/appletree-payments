@@ -10,20 +10,20 @@ const ContactUs = () => {
 
       <section className=' flex flex-col-reverse lg:flex-row w-full md:w-full lg:w-fit mt-12 px-4 lg:px-24 gap-8'>
 
-          <footer className=' text-white basis-2/6 '>
+          <article className=' text-white basis-2/6 '>
             <p className=' text-2xl font-medium' style={{ color: primaryColor }}>Zimbabwe</p>
             <p className=' mt-8 text-lg'>Appletree Digital Commerce</p>
             <p className=' text-lg'>191 Enterprise Road</p>
             <p className=' text-lg'>Chisipite</p>
             <p className=' text-lg'>Harare</p>
             <p className=' text-lg mt-8'>info@appletreepayments.com</p>
-            <ul className=' flex gap-4 mt-2 py-2 px-4'>
+            <ul className=' flex gap-4 mt-2 py-2'>
                 <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-facebook.png" alt="facebook link" /></a></li>
                 <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-instagram.png" alt="instagram link" /></a></li>
                 <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-linkedin.png" alt="linkedin link" /></a></li>
                 <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-x.png" alt="X(Twitter) link" /></a></li>
             </ul>
-          </footer>
+          </article>
 
           <form className=' pb-8 pt-2 px-8 basis-6/6 lg:basis-4/6 flex flex-col text-white border-1 rounded-2xl' style={{ borderColor: primaryColor }}>
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Full Name' type="text" name="Full Name" id="" />

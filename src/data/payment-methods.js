@@ -32,6 +32,10 @@ const paymentMethodsOffered = [
         title: 'Alipay',
     },
     {
+        image: '/payment-methods/jd-pay.png',
+        title: 'JD Pay',
+    },
+    {
         image: '/payment-methods/m-pesa2.png',
         title: 'M-Pesa',
     },
@@ -48,7 +52,7 @@ const paymentMethodsOffered = [
         title: 'Voda Pay',
     },
     {
-        image: '/payment-methods/airtel.png',
+        image: '/payment-methods/airtel-money.png',
         title: 'Airtel',
     },
     {

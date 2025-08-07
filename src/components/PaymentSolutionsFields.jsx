@@ -6,7 +6,7 @@ const PaymentSolutionsFields = ({ image, title, desc }) => {
       <img className=' text-black w-8 h-8 md:w-10 md:h-10 lg:w-14 lg:h-14' src={image} alt={title} />
       <div>
         <p className=' text-base md:text-xl font-medium text-black'>{title}</p>
-        <p className=' text-sm text-black font-light'>{desc}</p>
+        <p className=' text-medium text-gray-900 font-light'>{desc}</p>
       </div>
     </div>
   )

@@ -9,6 +9,7 @@ import PaymentMethods from '../sections/PaymentMethods'
 import About from '../sections/About'
 import ContactUs from '../sections/ContactUs'
 import FormCurves from '../components/FormCurves'
+import Footer from '../sections/Footer'
 
 const Container = () => {
   const {mobileNav} = useContext(MyContext)
@@ -23,6 +24,7 @@ const Container = () => {
           <PaymentMethods />
           <About />
           <ContactUs />
+          <Footer />
         </MainPage>
       
     </>

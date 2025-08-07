@@ -16,8 +16,16 @@ const paymentMethodsOffered = [
         title: 'American Express',
     },
     {
-        image: '/payment-methods/paypal.png',
-        title: 'Paypal',
+        image: '/payment-methods/verve.png',
+        title: 'Verve',
+    },
+    {
+        image: '/payment-methods/zim-switch.png',
+        title: 'Zim Switch',
+    },
+    {
+        image: '/payment-methods/wechat-pay.png',
+        title: 'WeChat Pay',
     },
     {
         image: '/payment-methods/alipay.png',
@@ -28,28 +36,28 @@ const paymentMethodsOffered = [
         title: 'M-Pesa',
     },
     {
-        image: '/payment-methods/mtn.png',
-        title: 'MTN',
-    },
-    {
-        image: '/payment-methods/vodacom.png',
-        title: 'Vodacom',
-    },
-    {
-        image: '/payment-methods/tigo-pesa.png',
-        title: 'Tigo Pesa',
+        image: '/payment-methods/paypal.png',
+        title: 'Paypal',
     },
     {
         image: '/payment-methods/mo-mo.png',
         title: 'MoMo',
     },
     {
-        image: '/payment-methods/paga.png',
-        title: 'Paga',
+        image: '/payment-methods/vodapay.png',
+        title: 'Voda Pay',
     },
     {
-        image: '/payment-methods/wechat-pay.png',
-        title: 'WeChat Pay',
+        image: '/payment-methods/airtel.png',
+        title: 'Airtel',
+    },
+    {
+        image: '/payment-methods/tigo-pesa.png',
+        title: 'Tigo Pesa',
+    },
+    {
+        image: '/payment-methods/paga.png',
+        title: 'Paga',
     },
     {
         image: '/payment-methods/orange-money.png',
@@ -58,10 +66,6 @@ const paymentMethodsOffered = [
     {
         image: '/payment-methods/wave.png',
         title: 'Wave',
-    },
-    {
-        image: '/payment-methods/airtel.png',
-        title: 'Airtel',
     },
     {
         image: '/payment-methods/at-money.png',
@@ -98,15 +102,6 @@ const paymentMethodsOffered = [
     {
         image: '/payment-methods/tnm.png',
         title: 'TNM',
-    },
-    
-    {
-        image: '/payment-methods/verve.png',
-        title: 'Verve',
-    },
-    {
-        image: '/payment-methods/zim-switch.png',
-        title: 'Zim Switch',
     },
     {
         image: '/payment-methods/zipit.png',

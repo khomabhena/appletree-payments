@@ -1,9 +1,12 @@
 import React from 'react'
+import PolicyContainer from '../components/PolicyContainer'
 
 const PrivacyPolicy = () => {
   return (
     <>
-    <h1>Privacy Policy</h1>
+      <PolicyContainer title={"Privacy Policy"}>
+        <h1>Do</h1>
+      </PolicyContainer>
     </>
   )
 }

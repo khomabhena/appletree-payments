@@ -8,7 +8,7 @@ const Hero = () => {
         <HeroHeading />
       </article>
       <article className=' basis-full md:basis-2/5 flex-row bg-contain content-center'>
-        <img src="/hero-image.jpg" width={'auto'} height={'auto'} className=' bg-red-600 bg-contain' alt="Hero Header image" />
+        <img src="/hero-image.jpg" width={'auto'} height={'auto'} className=' bg-contain' alt="Hero Header image" />
       </article>
     </section>
   )

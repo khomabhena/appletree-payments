@@ -71,7 +71,7 @@ export const getFooterData = [
             },
             {
                 title: 'Privacy Policy',
-                link: '#'
+                link: '/privacy-policy'
             },
             {
                 title: 'Terms And Conditions',

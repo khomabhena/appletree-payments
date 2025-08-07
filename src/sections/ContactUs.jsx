@@ -18,10 +18,10 @@ const ContactUs = () => {
             <p className=' text-lg'>Harare</p>
             <p className=' text-lg mt-8'>info@appletreepayments.com</p>
             <ul className=' flex gap-4 mt-2 py-2'>
-                <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-facebook.png" alt="facebook link" /></a></li>
-                <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-instagram.png" alt="instagram link" /></a></li>
-                <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-linkedin.png" alt="linkedin link" /></a></li>
-                <li><a href="#"><img width={'40px'} height={'40px'} src="/social-media/social-x.png" alt="X(Twitter) link" /></a></li>
+                <li><a target='_blank' href="https://facebook.com"><img width={'40px'} height={'40px'} src="/social-media/social-facebook.png" alt="facebook link" /></a></li>
+                <li><a target='_blank' href="https://instagram.com"><img width={'40px'} height={'40px'} src="/social-media/social-instagram.png" alt="instagram link" /></a></li>
+                <li><a target='_blank' href="https://linkedin.com"><img width={'40px'} height={'40px'} src="/social-media/social-linkedin.png" alt="linkedin link" /></a></li>
+                <li><a target='_blank' href="https://x.com"><img width={'40px'} height={'40px'} src="/social-media/social-x.png" alt="X(Twitter) link" /></a></li>
             </ul>
           </article>
 

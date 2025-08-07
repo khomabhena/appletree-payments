@@ -4,19 +4,19 @@ export const getFooterData = [
         pages: [
             {
                 title: 'Signup',
-                link: 'https://'
+                link: 'https://secure.appletreepayments.com/merchant/signup.jsp?partnerid=84&fromtype=Appletree'
             },
             {
                 title: 'Login',
-                link: 'https://'
+                link: 'https://secure.appletreepayments.com/merchant/index.jsp'
             },
             {
                 title: 'Sandbox',
-                link: 'https://'
+                link: 'https://sandbox.appletreepayments.com/merchant/index.jsp'
             },
             {
                 title: 'Fees',
-                link: 'https://'
+                link: '#'
             }
         ]
     },
@@ -25,19 +25,19 @@ export const getFooterData = [
         pages: [
             {
                 title: 'Integrate',
-                link: 'https://'
+                link: 'https://docs.appletreepayments.com/integration/index.php'
             },
             {
                 title: 'Invoice',
-                link: 'https://'
+                link: 'https://docs.appletreepayments.com/invoice-api/index.php'
             },
             {
                 title: 'Marketplace',
-                link: 'https://'
+                link: 'https://docs.appletreepayments.com/wallet/index.php'
             },
             {
                 title: 'Crowdfunding',
-                link: 'https://'
+                link: 'https://docs.appletreepayments.com/wallet/index.php'
             },
         ]
     },
@@ -46,19 +46,19 @@ export const getFooterData = [
         pages: [
             {
                 title: 'Gift Cards + Registries',
-                link: 'https://'
+                link: '#'
             },
             {
                 title: 'Website Builder',
-                link: 'https://'
+                link: '#'
             },
             {
                 title: 'Marketplace',
-                link: 'https://'
+                link: '#'
             },
             {
                 title: 'E-Fulfillment',
-                link: 'https://'
+                link: '#'
             },
         ]
     },
@@ -67,19 +67,19 @@ export const getFooterData = [
         pages: [
             {
                 title: 'About Us',
-                link: 'https://'
+                link: '#about-us'
             },
             {
                 title: 'Privacy Policy',
-                link: 'https://'
+                link: '#'
             },
             {
                 title: 'Terms And Conditions',
-                link: 'https://'
+                link: '#'
             },
             {
                 title: 'Prohibited Business',
-                link: 'https://'
+                link: '#'
             },
         ]
     },

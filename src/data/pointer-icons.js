@@ -1,37 +1,37 @@
-const pointerData = [
+const getPointerData = [
     {
-        link: "https://",
+        link: "https://secure.appletreepayments.com/merchant/signup.jsp?partnerid=84&fromtype=Appletree",
         image: "pointer-icons/pointer-icons-01.png",
         title: "Signup",
     },
     {
-        link: "https://",
+        link: "https://secure.appletreepayments.com/merchant/index.jsp",
         image: "pointer-icons/pointer-icons-02.png",
         title: "Login",
     },
     {
-        link: "https://",
-        image: "pointer-icons/pointer-icons-02.png",
+        link: "https://sandbox.appletreepayments.com/merchant/index.jsp",
+        image: "pointer-icons/pointer-icons-03.png",
         title: "Sandbox",
     },
     {
-        link: "https://",
-        image: "pointer-icons/pointer-icons-02.png",
+        link: "https://docs.appletreepayments.com/integration/index.php",
+        image: "pointer-icons/pointer-icons-04.png",
         title: "Integrate",
     },
     {
-        link: "https://",
-        image: "pointer-icons/pointer-icons-02.png",
+        link: "https://docs.appletreepayments.com/wallet/index.php",
+        image: "pointer-icons/pointer-icons-05.png",
         title: "Platforms",
     },
     {
-        link: "https://",
-        image: "pointer-icons/pointer-icons-02.png",
+        link: "https://docs.appletreepayments.com/invoice-api/index.php",
+        image: "pointer-icons/pointer-icons-06.png",
         title: "Invoice",
     },
 ]
 
-export default pointerData
+export default getPointerData
 
 
 

@@ -6,16 +6,16 @@ const Footer = () => {
     const data = getFooterData
 
   return (
-    <footer className=' bg-black pt-32 min-h-60 w-full max-w-[1920px] text-white'>
-        <div className=' w-full flex justify-evenly'>
+    <footer className=' bg-black pt-24 min-h-60 w-full max-w-[1920px] text-white'>
+        <div className=' w-full flex flex-wrap md:flex-nowrap gap-8 justify-evenly'>
         {
             data?.map(({title, pages}) => (
-                <section>
+                <section className=' px-4 md:px-8 basis-full w-full'>
                     <h6 style={{color: colors.primaryColor}} className=' text-xl'>{title}</h6>
                     <div className=' text-base mt-8'>
                         {
                             pages.map(({title, link}) => (
-                                <a href={link}><p className=' mt-1'>{title}</p></a>
+                                <a href={link} target='_blank'><p className=' mt-1'>{title}</p></a>
                             ))
                         }
                     </div>

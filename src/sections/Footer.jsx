@@ -12,7 +12,7 @@ const Footer = () => {
             data?.map(({title, pages}) => (
                 <section className=' bg-red-600f basis-full md:basis-auto '>
                     <h6 style={{color: colors.primaryColor}} className=' text-xl'>{title}</h6>
-                    <div className=' text-base mt-8'>
+                    <div className=' text-base mt-2 md:mt-4'>
                         {
                             pages.map(({title, link}) => (
                                 <a href={link} target='_blank'><p className=' mt-1'>{title}</p></a>

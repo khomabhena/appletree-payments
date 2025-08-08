@@ -22,17 +22,17 @@ export const getPrivacyPolicy = [
                 paragraph: 'Appletree Payments provides payment and electronic money services through its Partners. Appletree Payments was approached by these Partners to include Appletree Payment Solutions on their websites through which they run e-commerce stores, marketplaces and participative funding (e.g. crowdfunding).',
             },
             {
-                paragraph: 'When you register with these Partners, you may also be asked to register with the services provided by Appletree Payments which allow you to transfer funds or receive payments via the site of the Partner. In this case, Appletree Payments collects and processes your Personal Data in order to provide the services. This Privacy Policy applies if you have registered to Appletree Paymentsï¿½ services in the capacity of a physical person.'
+                paragraph: 'When you register with these Partners, you may also be asked to register with the services provided by Appletree Payments which allow you to transfer funds or receive payments via the site of the Partner. In this case, Appletree Payments collects and processes your Personal Data in order to provide the services. This Privacy Policy applies if you have registered to Appletree Payments services in the capacity of a physical person.'
             },
             {
-                paragraph: 'This Privacy Policy may also affect you if you are a physical person related to a Partner of Appletree Payments, or to a legal person having registered to Appletree Paymentsï¿½ services. In effect, all Partners as well as all legal persons that register with the services are asked to transmit information regarding physical persons i.e. their legal representative, the physical persons that have the authority to use the services on behalf of the legal person, or the beneficial owners of the legal person whereby the beneficial owners are physical persons who hold, directly or indirectly, more than 25% of capital or voting rights of the company, or exercise, by any other means, supervisory power over the company.',
+                paragraph: 'This Privacy Policy may also affect you if you are a physical person related to a Partner of Appletree Payments, or to a legal person having registered to Appletree Payments services. In effect, all Partners as well as all legal persons that register with the services are asked to transmit information regarding physical persons i.e. their legal representative, the physical persons that have the authority to use the services on behalf of the legal person, or the beneficial owners of the legal person whereby the beneficial owners are physical persons who hold, directly or indirectly, more than 25% of capital or voting rights of the company, or exercise, by any other means, supervisory power over the company.',
             },
             {
                 paragraph: 'Furthermore, if you have made a payment by card on a Partner site using an Appletree Payments payment page, the Privacy Policy applies to the Personal Data processed for the purposes of carrying out the transaction.'
             },
-            {
-                paragraph: 'Regarding Personal Data relating to web browsers on the website www.appletreepayments.com please refer to: https://www.appletreepayments.com/cookies.html'
-            },
+            //{
+              //  paragraph: `Regarding Personal Data relating to web browsers on the website <a>www.appletreepayments.com</a> please refer to: https://www.appletreepayments.com/cookies.html`
+            //},
         ]
     },
     {
@@ -44,7 +44,7 @@ export const getPrivacyPolicy = [
         titleNumber: '3.1',
         paragraphs: [
             {
-                paragraph: 'When you register with Appletree Payments services through a Partner, you accept that your Personal Data necessary to provide the services is processed by Appletree Payments. This mainly pertains to your identifiers on the Partner Site (allowing you access to Appletree Paymentsï¿½ services), as well as your identification data (specifically your last name, first name, address, date and place of birth, and an identity document as well as any document of proof that may be required to use the services. This data is transmitted to Appletree Payments from your personal online area on the Partner site through Appletree Payments API.',
+                paragraph: 'When you register with Appletree Payments services through a Partner, you accept that your Personal Data necessary to provide the services is processed by Appletree Payments. This mainly pertains to your identifiers on the Partner Site (allowing you access to Appletree Payments services), as well as your identification data (specifically your last name, first name, address, date and place of birth, and an identity document as well as any document of proof that may be required to use the services. This data is transmitted to Appletree Payments from your personal online area on the Partner site through Appletree Payments API.',
             },
             {
                 paragraph: 'Obligatory data is indicated on the collection forms on the Partner site and your subscription to the services may be refused or the services may be suspended if obligatory data is not provided. '
@@ -56,7 +56,7 @@ export const getPrivacyPolicy = [
                 paragraph: 'Additionally, Personal Data related to you is collected and processed:',
                 points: [
                     {
-                        point: 'When you register with Appletree Paymentsï¿½ services and open an account (payment account or electronic money account);'
+                        point: 'When you register with Appletree Payments services and open an account (payment account or electronic money account);'
                     },
                     {
                         point: 'When you use the services and the account is managed;'
@@ -82,7 +82,7 @@ export const getPrivacyPolicy = [
         titleNumber: '3.2',
         paragraphs: [
             {
-                paragraph: 'When you make a payment by card on a Partnerï¿½s website, you must indicate your last name, first name and card data. In order to guarantee the highest level of security in processing payment data, this Data is never accessible to the Partner. Only Appletree Payments, has access to this Data in order to carry out the transaction. The Data is transmitted in an encrypted and secured manner in order to guarantee confidentiality. We inform you that Appletree Payments is PCI-DSS compliant.  The PCI-DSS standard serves as a reference for the technical and operational conditions for protecting the data of cardholders.'
+                paragraph: 'When you make a payment by card on a Partners website, you must indicate your last name, first name and card data. In order to guarantee the highest level of security in processing payment data, this Data is never accessible to the Partner. Only Appletree Payments, has access to this Data in order to carry out the transaction. The Data is transmitted in an encrypted and secured manner in order to guarantee confidentiality. We inform you that Appletree Payments is PCI-DSS compliant.  The PCI-DSS standard serves as a reference for the technical and operational conditions for protecting the data of cardholders.'
             }
         ]
     },
@@ -94,7 +94,7 @@ export const getPrivacyPolicy = [
                 paragraph: 'Your Personal Data is processed in the framework of performing the contract that you have entered into with Appletree Payments. This includes the following:',
                 points: [
                     {
-                        point: 'Registering with the services and opening your account (payment account or electronic money account) on Appletree Paymentsï¿½ books;'
+                        point: 'Registering with the services and opening your account (payment account or electronic money account) on Appletree Payments books;'
                     },
                     {
                         point: 'Managing these accounts and carrying out payment operations;'
@@ -112,7 +112,7 @@ export const getPrivacyPolicy = [
                         point: 'The methods for online access of your account (and managing the authentication procedures) and'
                     },
                     {
-                        point: 'Making payments by card on the Partnerï¿½s site'
+                        point: 'Making payments by card on the Partners site'
                     }
                 ]
             }
@@ -192,7 +192,7 @@ export const getPrivacyPolicy = [
         titleNumber: '7.1',
         paragraphs: [
             {
-                paragraph: 'Only Appletree Paymentsï¿½ collaborators that are specifically authorised may access your Personal Data, in the framework of carrying out their missions. All collaborators of Appletree Payments having access to your Data are subject to strict confidentiality obligations, as well as professional secrecy concerning payment data.'
+                paragraph: 'Only Appletree Payments collaborators that are specifically authorized may access your Personal Data, in the framework of carrying out their missions. All collaborators of Appletree Payments having access to your Data are subject to strict confidentiality obligations, as well as professional secrecy concerning payment data.'
             }
         ]
     },
@@ -201,7 +201,7 @@ export const getPrivacyPolicy = [
         titleNumber: '7.2',
         paragraphs: [
             {
-                paragraph: 'Appletree Payments may be required to transfer Personal Data to the certain authorities, such as public authorities, organisations for the fight against money laundering and the financing of terrorism, or the authorities for banking oversight.',
+                paragraph: 'Appletree Payments may be required to transfer Personal Data to the certain authorities, such as public authorities, organizations for the fight against money laundering and the financing of terrorism, or the authorities for banking oversight.',
             }
         ]
     },
@@ -210,10 +210,10 @@ export const getPrivacyPolicy = [
         titleNumber: '7.3',
         paragraphs: [
             {
-                paragraph: 'Appletree Payments uses the services of subcontractors to provide payment services and services that you request for example, hosting an information technology system, Partner credit institutions for protecting funds or carrying out payment operations, etc. The subcontractors process your Personal Data only on Appletree Paymentsï¿½ instruction and exclusively in the framework of the latterï¿½s activities. Barring express agreement on your part, the subcontractors are not authorised to access your Personal Data for their own use.'
+                paragraph: 'Appletree Payments uses the services of subcontractors to provide payment services and services that you request for example, hosting an information technology system, Partner credit institutions for protecting funds or carrying out payment operations, etc. The subcontractors process your Personal Data only on Appletree Payments instruction and exclusively in the framework of the latter activities. Barring express agreement on your part, the subcontractors are not authorized to access your Personal Data for their own use.'
             },
             {
-                paragraph: 'Subcontractors are contractually obligated to comply with the obligations of security and confidentiality, to implement appropriate technical and organisational measures so that data processing is carried out in a manner that complies with applicable regulations and guarantees the protection of your rights. By a request sent to Appletree Payments, you may obtain a detailed list of the categories of subcontractors involved in processing your Data.'
+                paragraph: 'Subcontractors are contractually obligated to comply with the obligations of security and confidentiality, to implement appropriate technical and organizational measures so that data processing is carried out in a manner that complies with applicable regulations and guarantees the protection of your rights. By a request sent to Appletree Payments, you may obtain a detailed list of the categories of subcontractors involved in processing your Data.'
             }
         ]
     },
@@ -261,7 +261,7 @@ export const getPrivacyPolicy = [
         ]
     },
     {
-        title: 'However, you may not have the right to erasure of your Data when processing it is necessary to exercise a right regarding the freedom of expression and information, of recognition, of the exercise or defence of legal rights, or for complying with a legal obligation imposed on Appletree Payments.',
+        title: 'However, you may not have the right to erasure of your Data when processing it is necessary to exercise a right regarding the freedom of expression and information, of recognition, of the exercise or defense of legal rights, or for complying with a legal obligation imposed on Appletree Payments.',
         titleNumber: '',
         paragraphs: []
     },
@@ -279,7 +279,7 @@ export const getPrivacyPolicy = [
                         point: 'If processing it is illegal and you wish that this processing of your personal data be restricted rather than erased;'
                     },
                     {
-                        point: 'If Appletree Payments no longer needs your Personal Data but it is still necessary for recognition or in the exercise of defence of a legal right.'
+                        point: 'If Appletree Payments no longer needs your Personal Data but it is still necessary for recognition or in the exercise of defense of a legal right.'
                     }
                 ]
             }
@@ -332,7 +332,7 @@ export const getPrivacyPolicy = [
         titleNumber: '10.',
         paragraphs: [
             {
-                paragraph: 'Appletree Payments implements the appropriate security measures in order to guarantee the protection and confidentiality of your Data, and specifically, to prevent its destruction, loss, alteration, unauthorised disclosure of Data, or unauthorised access of this Data. These security measures specifically consist of encrypting or creating a pseudonym of the Data, as well as implementing measures that allow for guaranteeing their confidentiality, integrity, availability and constant resiliency in terms of data processing services. You will be notified as soon as possible of any violation of security that has an impact on your Data which may lead to a heightened risk to your rights and freedoms by the Partner with which you are in a business relationship.'
+                paragraph: 'Appletree Payments implements the appropriate security measures in order to guarantee the protection and confidentiality of your Data, and specifically, to prevent its destruction, loss, alteration, unauthorized disclosure of Data, or unauthorized access of this Data. These security measures specifically consist of encrypting or creating a pseudonym of the Data, as well as implementing measures that allow for guaranteeing their confidentiality, integrity, availability and constant resiliency in terms of data processing services. You will be notified as soon as possible of any violation of security that has an impact on your Data which may lead to a heightened risk to your rights and freedoms by the Partner with which you are in a business relationship.'
             },
         ]
     },
@@ -344,7 +344,7 @@ export const getPrivacyPolicy = [
                 paragraph: 'Each Partner jointly assumes the responsibility of managing Data carried out in the framework of the following activities:',
                 points: [
                     {
-                        point: 'Registering with the services and opening your account (payment account or electronic money account) on Appletree Paymentsï¿½ books;'
+                        point: 'Registering with the services and opening your account (payment account or electronic money account) on Appletree Payments books;'
                     },
                     {
                         point: 'Managing payment orders;'

@@ -25,7 +25,7 @@ const ContactUs = () => {
             </ul>
           </article>
 
-          <form className=' pb-8 pt-2 px-8 basis-6/6 lg:basis-4/6 flex flex-col text-white border-1 rounded-2xl' style={{ borderColor: primaryColor }}>
+          <form action="mailto:someone@example.com" className=' pb-8 pt-2 px-8 basis-6/6 lg:basis-4/6 flex flex-col text-white border-1 rounded-2xl' style={{ borderColor: primaryColor }}>
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Full Name' type="text" name="Full Name" id="" />
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Email' type="email" name="Email" id="" />
             <input className=' text-base lg:text-lg font-light mt-2 py-2 px-4 mr-4 text-white border-b-1 border-gray-800' placeholder='Mobile Number' type="number" name="" id="" />

@@ -1,4 +1,4 @@
-export const getTermsAndData = [
+export const getTermsAndConditionsData = [
     {
         title: 'Entered into between:',
         titleNumber: '',
@@ -89,7 +89,7 @@ export const getTermsAndData = [
     },
     {
         title: '“Beneficiary”:',
-        titleNumber: '1.',
+        titleNumber: '',
         paragraphs: [
             {
                 paragraph: 'Indicates the legal or physical person, creditor of a Payment Operation issued by the Account Holder.'
@@ -334,12 +334,6 @@ export const getTermsAndData = [
             {
                 paragraph: 'indicates the physical person who is the Account Holder or any person related to the Account Holder (specifically a corporate executive, a beneficial owner, or an Authorised Person), whose Personal Data is processed in the framework of the performance of this Framework Contract.'
             },
-            {
-                paragraph: ''
-            },
-            {
-                paragraph: ''
-            }
         ]
     },
     {
@@ -349,12 +343,6 @@ export const getTermsAndData = [
             {
                 paragraph: 'indicates any representative designated by the Account Holder in order to access the Payment Account and use the Payment Services on their behalf.'
             },
-            {
-                paragraph: ''
-            },
-            {
-                paragraph: ''
-            }
         ]
     },
     {
@@ -478,24 +466,6 @@ export const getTermsAndData = [
     {
         title: 'Registration for the Services',
         titleNumber: '3.',
-        paragraphs: [
-            {
-                paragraph: '',
-                points: [
-                    {
-                        point: '',
-                    },
-                ],
-            },
-            {
-                paragraph: '',
-                points: [
-                    {
-                        point: ''
-                    },
-                ],
-            }
-        ],
     },
     {
         title: ' Registration Methods',
@@ -1174,18 +1144,30 @@ export const getTermsAndData = [
                 ],
             },
             {
-                paragraph: [
-                    
+                paragraph: 'The Account Holder is also not held responsible:',
+                points: [
+                    {
+                        point: 'If the unauthorised Payment Operation is carried out by diverting the Personalised Security Data, without the Account Holder’s knowledge;'
+                    },
+                    {
+                        point: 'In the event of counterfeiting the Personalised Security Data, if, at the time of the unauthorised Payment Operation, the Account Holder is in possession of this Data.'
+                    },
                 ]
-            }
+            },
+            {
+                paragraph: 'The Account Holder will bear all the losses arising from unauthorised Operations if these losses result from fraudulent activity by them or if they intentionally seriously neglected the obligations to keep their Personalised Security Data secured and to contest operations in the event of loss, theft or diversion of their Data.',
+            },
+            {
+                paragraph: 'Barring fraudulent activities on behalf of the Account Holder, the latter will not bear any financial consequences if the unauthorised Operation was carried out without the Service Provider requiring Strong Authentication of the Account Holder, in the event that regulations require it.',
+            },
         ],
     },
     {
-        title: '',
-        titleNumber: '',
+        title: '  Financial Conditions',
+        titleNumber: '11.',
         paragraphs: [
             {
-                paragraph: '',
+                paragraph: 'The services offered herein are invoiced by the Platform on behalf of the Service Provider in compliance with the Price Conditions.',
                 points: [
                     {
                         point: '',
@@ -1193,21 +1175,29 @@ export const getTermsAndData = [
                 ],
             },
             {
-                paragraph: '',
+                paragraph: 'Any commissions due by the Account Holder are automatically deducted from the Payment Account by the Service Provider. The Account Holder authorises the Service Provider to compensate at any time, even after the Account is closed, any irrefutable credit, liquid and collectible that remains owed, of any nature whatsoever. Funds in the Payment Account may be compensated for any amount due, collectible and unpaid of the Account Holder to the Service Provider.',
                 points: [
                     {
                         point: ''
                     },
                 ],
-            }
+            },
+            {
+                paragraph: 'In the event of late payment of the amounts due and collectible of the Account Holder to the Service Provider, the Account Holder will owe late-payment interests for the period from the date they are due until payment is complete. The applicable interest rate will be calculated on the basis of two times the annual legal interest rate published twice yearly for businesses. The amount of late-payment interest will be equal to the product of the amount unpaid multiplied by the above-mentioned legal interest rate and the number of days late over 365.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ],
+            },
         ],
     },
     {
-        title: '',
-        titleNumber: '',
+        title: 'Term and Termination',
+        titleNumber: '12.',
         paragraphs: [
             {
-                paragraph: '',
+                paragraph: 'The Framework Contract is entered into for an indeterminate period. It enters into force from the time it is accepted by the Account Holder.',
                 points: [
                     {
                         point: '',
@@ -1215,21 +1205,56 @@ export const getTermsAndData = [
                 ],
             },
             {
-                paragraph: '',
+                paragraph: 'The latter may at any time and by respecting an advance notice of thirty (30) calendar days, terminate the Framework Contract. The Service Provider may at any time terminate the Framework Contract, by respecting an advance notice of two (2) months provided in Hard Copy format. In this case, the fees irrefutably owed for the Payment Services are due by the Account Holder on a pro rata basis for the period elapsed at the termination date.',
                 points: [
                     {
                         point: ''
                     },
                 ],
+            },
+            {
+                paragraph: 'Beyond six (6) months, the Framework Contract may be terminated without costs. In other cases, termination costs may apply, in compliance with the Price Conditions.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ],
+            },
+            {
+                paragraph: 'For these purposes, each Party must notify the termination hereof to the other Party, by registered letter with acknowledgment of receipt, to the postal and email address indicated in the General Conditions of the Site.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ],
+            },
+            {
+                paragraph: 'Consequently, the entire Framework Contract is terminated any Payment Account is closed. The credit in the Account will be transferred in a time frame of thirteen (13) months to the Account Holder’s Bank Account after deducting the fees due and payable to the Service Provider. If the credit in the Payment Account surpasses the threshold indicated in the Price Conditions, the amount surpassing the threshold will be transferred within thirty (30) days following the date the termination takes effect to the Account Holder’s bank account after deducting the fees due and payable to the Service Provider. The Service Provider is discharged of any obligation upon confirming to the Account Holder the transfer to the bank account indicated.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ],
+            },
+            {
+                paragraph: 'In the event of serious breach, fraud, or lack of payment on the part of the Account Holder, the Service Provider reserves the right to suspend or terminate this Contract by sending an email along with a registered letter with acknowledgment of receipt without providing reasons or advance notice.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ],
+            },
+            {
+                paragraph: 'It is established that the Framework Contract will be automatically terminated in the event of new circumstances that affect the ability of a Party to carry out the obligations of the Contract.'
             }
         ],
     },
     {
-        title: '',
-        titleNumber: '',
+        title: 'Modification of the Contract',
+        titleNumber: '13.',
         paragraphs: [
             {
-                paragraph: '',
+                paragraph: 'The Service Provider reserves the right, at any time, to modify the Framework Contract. Any draft modification of the Framework Contract is provided to the Account Holder via the Platform Any Account Holder may refuse the proposed modifications and must notify their refusal to the Platform Customer Service by registered letter with acknowledgment of receipt two (2) months before the proposed modifications enter into force (post office stamp being proof thereof) to the address indicated in the General Conditions of the Site.',
                 points: [
                     {
                         point: '',
@@ -1237,21 +1262,27 @@ export const getTermsAndData = [
                 ],
             },
             {
-                paragraph: '',
+                paragraph: 'Lacking notification of refusal before the indicated date that they enter into force, the Account Holder will be deemed to have accepted the proposed modifications. The relationship between the Parties after the date of entry into force will then be governed by the new version of the Framework Contract.',
                 points: [
                     {
                         point: ''
                     },
                 ],
-            }
+            },
+            {
+                paragraph: 'In the event the Account Holder refuses, this refusal will give rise, without fees, to the termination of the Framework Contract, as well as the transfer of the balance of the Payment Account in a time frame of thirteen (13) months following the date the termination takes effect in order to cover anything contested in the future.'
+            },
+            {
+                paragraph: 'Any legislative or regulatory provisions that make modifications necessary to any part of the Framework Contract will be applicable from the date they enter into force, without advance notice. However, the Account Holder will be informed thereof.'
+            },
         ],
     },
     {
-        title: '',
-        titleNumber: '',
+        title: 'Security',
+        titleNumber: '14.',
         paragraphs: [
             {
-                paragraph: '',
+                paragraph: 'The Service Provider undertakes to ensure that the services are provided with respect to the applicable laws and regulations and best practices. Specifically, the Service Provider shall do what is necessary to ensure the security and confidentiality of the Account Holder’s data, in compliance with the regulation in force.',
                 points: [
                     {
                         point: '',
@@ -1259,13 +1290,442 @@ export const getTermsAndData = [
                 ],
             },
             {
-                paragraph: '',
+                paragraph: 'The Service Provider reserves the right to temporarily suspend access to the online Account for technical, security or maintenance reasons without these operations invoking any right to an indemnity of any kind. It undertakes to limit these types of interruptions to those that are strictly necessary.',
                 points: [
                     {
                         point: ''
                     },
                 ],
-            }
+            },
+            {
+                paragraph: 'However, the Service Provider shall not be held responsible to the Account Holder for potential errors, omissions, interruptions or delays of operations carried out via the Site that result from unauthorised access by the latter. The Service Provider shall not be held responsible for the theft, destruction or unauthorised disclosure of data that results from unauthorised access to the Site. Furthermore, the Service Provider remains outside of the scope of the legal relationship between the Account Holder and a User or between the Account Holder and the Site. The Service Provider will not be held responsible for defaults, breaches or negligence between a User and an Account Holder, or the Site and an Account Holder.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ],
+            },
+            {
+                paragraph: 'If the unique identifier or any other information necessary to carry out a Payment Operation provided by the Account Holder is inexact, the Service Provider cannot be held responsible for the improper execution of said Service.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ],
+            },
+            {
+                paragraph: 'The Platform alone is responsible for the security and confidentiality of the data exchanged in the framework of using the Site in compliance with the General Conditions of the Site, the Service Provider being responsible for the security and confidentiality of the data that it exchanges with the Account Holder in the framework hereof for creating and managing their Account, as well as Payment Operations related to the Account.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ],
+            },
         ],
+    },
+    {
+        title: 'Limits to the Service Provider’s Liability',
+        titleNumber: '15.',
+        paragraphs: [
+            {
+                paragraph: 'The Service Provider is in no way involved in the legal and commercial relationships and potential disputes arising between the Account Holder and the User or between the Account Holder and the Platform or between the Account Holder and a Beneficiary. The Service Provider exercises no oversight over the conformity, security, legality, characteristics and the appropriate character of the products and services subject to a Payment Operation.',
+            },
+            {
+                paragraph: 'Every operation carried out by the Account Holder gives rise to a contract created directly between themselves and a User who is a stranger to the Service Provider. Consequently, the latter cannot be held responsible for the non-performance or improper performance of the obligations arising from it, or any potential damages caused to the Account Holder.',
+            },
+            {
+                paragraph: 'Notwithstanding any contrary provision in this Contract, the Service Provider’s liability in terms of an Account Holder is limited to reparations for direct damages as established by regulation.',
+            },
+        ]
+    },
+    {
+        title: 'The Account Holder’s Commitments',
+        titleNumber: '16.',
+        paragraphs: [
+            {
+                paragraph: 'The Account Holder acknowledges that elements in their Personal Online Area do not infringe on the rights of a third party and are not contrary to the law, public order, or proper ethics.',
+            },
+            {
+                paragraph: 'They undertake:',
+                points: [
+                    {
+                        point: 'To not perform the Framework Contract in an illegal manner or under conditions that may damage, deactivate, overload or alter the site;'
+                    },
+                    {
+                        point: 'To not usurp the identity of another person or entity, falsify or divulge their identity, their age or create a false identity;'
+                    },
+                    {
+                        point: 'To not divulge data or personal information related to a third party, such as postal addresses, telephone numbers, email addresses, bank card numbers, etc. In the event of a breach of these obligations, the Service Provider may take all appropriate measures in order to bring an end to these actions. It also has the right to suspend, erase and/or block the Account Holder’s access to their Account.'
+                    },
+                    {
+                        point: 'Without prejudice to legal actions undertaken by third parties, the Service Provider has the right to personally bring any legal action that seeks to repair the damages that it has personally been subject to due to the Account Holder’s breach of their obligations under this Contract.'
+                    },
+                ]
+            },
+            {
+                paragraph: 'If the Account Holder is aware of a breach of the above-mentioned obligations, they are asked to inform the Service Provider of these actions by contacting it at the address: legal@appletreepayments.com.',
+            },
+        ]
+    },
+    {
+        title: 'Withdrawal Right',
+        titleNumber: '17.',
+        paragraphs: [
+            {
+                paragraph: '',
+            },
+            {
+                paragraph: '',
+            },
+            {
+                paragraph: '',
+            },
+        ]
+    },
+    {
+        title: 'Provisions Common to All Account Holders',
+        titleNumber: '17.1.',
+        paragraphs: [
+            {
+                paragraph: 'The Account Holder has a time frame of 14 (fourteen) calendar days to exercise their right of withdrawal, without having to justify the reason or bear the penalty. This time frame for withdrawal begins from the day of their registration as an Account Holder.',
+            },
+            {
+                paragraph: '',
+            },
+            {
+                paragraph: '',
+            },
+        ]
+    },
+    {
+        title: 'Provisions Applicable to Consumer Account Holders',
+        titleNumber: '17.2',
+        paragraphs: [
+            {
+                paragraph: 'The consumer Account Holder has a right of withdrawal that may be exercised in a time frame of 14 (fourteen) days without having to justify the reason or bear the penalty. This withdrawal time frame begins either from the day of entering into the Framework Contract, or from the receipt of the contractual conditions and information, if this date is after that of the date the',
+            },
+            {
+                paragraph: 'Framework Contract is entered into. The Framework Contract may only be put into effect before the withdrawal deadline has expired upon the approval of the consumer Account Holder. The consumer Account Holder recognises that the use of Payment Services after entering into the Framework Contract constitutes an express request on its part to begin performing the Framework Contract before the above-mentioned deadline has expired.  Exercising the right of withdrawal involves the Framework Contract coming to an end, and in the event performance thereof has begun, takes the form of termination and does not bring into question the services previously provided. In this event, the consumer Account Holder will only be responsible for a payment proportional to the Services effectively provided.',
+            },
+            {
+                paragraph: '',
+            },
+        ]
+    },
+    {
+        title: 'Exercising the Withdrawal Right',
+        titleNumber: '17.3',
+        paragraphs: [
+            {
+                paragraph: 'The Account Holder must notify the Platform Customer Service of their withdrawal request within the indicated time frame by telephone or by email and by sending confirmation to the address of the Platform Customer Service. For this purpose, it may use the withdrawal slip made available to them by the Platform.',
+            },
+            {
+                paragraph: '',
+            },
+            {
+                paragraph: '',
+            },
+        ]
+    },
+    {
+        title: ' Rules Regarding the Fight Against Money Laundering and the Financing of Terrorism',
+        titleNumber: '18.',
+        paragraphs: [
+            {
+                paragraph: 'The Service Provider is subject to all of the Zimbabwe regulations regarding the fight against money laundering and the financing of terrorism.',
+            },
+            {
+                paragraph: 'Pursuant to the provisions of Zimbabwean law, relating to financial organisations participating in the fight against money laundering and the financing of terrorist activities, the Service Provider must obtain information from all Account Holders regarding any operation or original business relationship, the subject and the destination of the operation or the opening of the Account. Furthermore, it must carry out all due diligence for identifying the Account Holder and, if it be the case, the beneficial owner of the Account and/or the Payment Operations related to them.',
+            },
+            {
+                paragraph: 'The Account Holder recognises that the Service Provider may bring an end or postpone at any time the use of Personalised Security Data, access to an Account or the execution of an Operation in the absence of sufficient elements regarding their purpose or nature. They are informed that an operation carried out in the framework hereof may be subject to exercising the right of communication to the national financial intelligence unit.',
+            },
+            {
+                paragraph: 'The Account Holder, pursuant to regulations, may access all information thus communicated subject to this right of access not jeopardising the purpose regarding the fight against money laundering and the financing of terrorism if this data relates to the individual making the request.',
+            },
+            {
+                paragraph: 'No proceedings or civil liability action may be brought and no professional sanctions issued against the Service Provider, their officers or agents if they have made declarations regarding suspicions in good faith to their national authority.',
+            },
+        ]
+    },
+    {
+        title: 'Protection of Personal Data',
+        titleNumber: '19.',
+        paragraphs: [
+            {
+                paragraph: 'The Service Provider collects and processes all Personal Data in compliance with the regulations in force applicable to the protection of this Data. The Personal Data required during registration is necessary in the framework of the services provided in compliance herewith. If the obligatory Personal Data is not provided, the interested party may be refused access to the services.',
+            },
+            {
+                paragraph: 'The Person in Question is informed that the Personal Data is specifically collected for the following purposes:',
+                points: [
+                    {
+                        point: 'Providing the services such as described herein; the fight against money laundering and the financing of terrorism;'
+                    },
+                    {
+                        point: 'Managing requests for information and claims; carrying out statistics. This data processing is specifically necessary for the performance of the Framework Contract as well as respecting the legal obligations that the data processor is subject to. The Service Provider and the Platform act as joint processors of this data.'
+                    },
+                ]
+            },
+            {
+                paragraph: 'The Personal Data shall not be transferred to any third party without the express consent of the Persons in Question. However, the Person in Question is informed that the Personal Data is transferred to the Service Provider’s subcontractors for the above-stated purposes. Said subcontractors only act on instructions from the Service Provider and exclusively on behalf of the latter.',
+            },
+            {
+                paragraph: 'The Person in Question may access the list of subcontractors by sending their request to the Platform Customer Service. They are informed that the Service Provider ensures that their subcontractors take all necessary measures in order to maintain the security and confidentiality of the Personal Data. In the event the Data is violated (loss, breach, destruction, etc.) involving increased risk to the Person in Question, the latter will be informed thereof.',
+            },
+            {
+                paragraph: 'The Service Provider reserves the right to disclose Personal Data at the request of a legal authority to be in compliance with any law or regulation in force, to protect or defend the rights of the Account Holder or the Person in Question, if circumstances require it or to protect the security of the Service Provider, the Services or the public.',
+            },
+            {
+                paragraph: 'Personal Data processed by the Service Provider in the framework of the services provided in compliance herewith is kept for the period of time that is strictly necessary to attain the purposes mentioned hereinabove.',
+            },
+            {
+                paragraph: 'Barring legal and regulatory provisions to the contrary, the Data will not be kept beyond the effective date of termination of the Contract. It is specifically indicated that the Personal Data relating to identification is kept for a term of five years from the end of the contractual relationship, subject to applicable regulation in terms of the fight against money laundering and the financing of terrorism.',
+            },
+            {
+                paragraph: 'The Persons in Question have the following rights pertaining to their Data, according to the conditions established by regulations: the right of access, right of rectification, the right of objection, the right of erasure, the right to restrict its processing and the right of portability. The Person in Question may at any time exercise these rights by addressing the Platform Customer Service. The request must indicate their last name, first name, identifier, and include a photocopy of an identity document bearing their signature.',
+            },
+            {
+                paragraph: 'A response will be sent to the Person in Question in a time frame of one (1) month following receipt of the request. This deadline may be extended to two (2) months, given the complexity and the number of requests. In this case, the Person in Question will be informed of this extension and the reasons for postponement within a deadline of one (1) month from the receipt of the request.',
+            },
+            {
+                paragraph: 'The Person in Question will be informed if they have the right to file a claim with the competent authority for any request related to their Personal Data.',
+            },
+            {
+                paragraph: 'If the Person in Question provides the request in electronic format, the response will be provided in electronic format, unless they expressly request otherwise.',
+            },
+            {
+                paragraph: 'When the Personal Data relate to a Person in Question who is not a party to the Framework Contract has been transferred by the Account Holder, the latter will be responsible for communicating to the Person in Question the information of this Article.',
+            },
+            {
+                paragraph: 'Additional Information on the processing of Personal Data carried out in the framework hereof, the time frame that it is kept and the rights of the Person in Question are available in the Service Provider’s Privacy Policy (accessible at the site www.appletreepayments.com).',
+            },
+        ]
+    },
+    {
+        title: 'Professional Secrecy',
+        titleNumber: '20.',
+        paragraphs: [
+            {
+                paragraph: 'The Service Provider is bound by professional secrecy. However, the secrecy may be lifted, in compliance with the legislation in force, based on a legal, regulatory and prudential obligation, specifically at the request of supervisory authorities, the tax or customs administration, as well as those of a criminal judge or in the event of a legal request indicated to the Service Provider. Notwithstanding the foregoing, the User has the right to release the Service Provider from professional secrecy by expressly indicating the authorities receiving the confidential information that relates to the User. It is specified that professional secrecy may be lifted by regulation benefiting companies providing the Service Provider important operational tasks within the framework hereof.'
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Intellectual Property',
+        titleNumber: '21.',
+        paragraphs: [
+            {
+                paragraph: 'The Service Provider retains all intellectual property rights that pertain to them for the Services offered to the Account Holder. None of these intellectual property rights will be transferred to the Account Holder under this Contract.'
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Death of the Account Holder and Inactive Accounts',
+        titleNumber: '22.',
+        paragraphs: [
+            {
+                paragraph: ''
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Death of the Account Holder',
+        titleNumber: '22.1.',
+        paragraphs: [
+            {
+                paragraph: 'The death of the Account Holder will bring an end to the Framework Contract, once this is made aware to the Service Provider. Operations occurring from the time of death, except with the agreement of the individual who has rights or the attorney in charge of the estate, will be considered not having been authorised.'
+            },
+            {
+                paragraph: 'The Payment Account will remain open for the time necessary to settle the estate and the Service Provider will ensure the transfer of the balance upon the agreement of the individual who has rights or the attorney in charge of the estate.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Inactive Accounts',
+        titleNumber: '22.2',
+        paragraphs: [
+            {
+                paragraph: 'Any inactive Account may be the subject to an inactivity notification by email on behalf of the Service Provider followed by a follow-up notification one month later. An Account Holder’s Payment Account is considered inactive if, at the end of a period of twelve (12) months, there have been no operations (with the exception of management fees being taken out) at the initiative of the Account Holder (or any representative) and that has not been specifically indicated to the Service Provider in any form whatsoever.'
+            },
+            {
+                paragraph: 'In the absence of a response or use of the balance of the credit of the Account in this time frame, the Service Provider may close the Account and maintain it for the sole purposes of carrying out a transfer of the amount due on the account as indicated by the Account Holder. In the event of death, the balance may only be transferred to the individual holding the Account Holder’s rights. The Account may no longer carry out Payment Operations.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Force Majeure',
+        titleNumber: '23.',
+        paragraphs: [
+            {
+                paragraph: 'The Parties shall not be held responsible, or considered as being in breach hereof, in the event of a delay or non-performance, when the cause of which is related to an event of force majeure as defined by the Civil Code.'
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Independence of the Contractual Stipulations',
+        titleNumber: '24.',
+        paragraphs: [
+            {
+                paragraph: 'If one of the stipulations hereof is nullified or not applicable, it shall be deemed not having been written and it shall not lead to nullification of the other stipulations. If one or more stipulations hereof becomes invalid or is declared as such pursuant to a law, regulation or following a definitive decision handed down by a competent jurisdiction, the other stipulations retain their force of obligation and their scope. The stipulations declared null and void will then be replaced by stipulations that are as close as possible to the meaning and the scope of the stipulations initially agreed to.'
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Protection of Funds',
+        titleNumber: '25.',
+        paragraphs: [
+            {
+                paragraph: 'The Account Holder’s funds shall be deposited, at the end of the Business Day following the day that they were received by the Service Provider, in a holding account open on the books of a Bank under the conditions required by regulations. The funds collected are protected and are not included in the pool of assets of the electronic money institution in the event of liquidation, bankruptcy or any other competitive situation that may arise for this latter.'
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Lack of Transferability',
+        titleNumber: '26.',
+        paragraphs: [
+            {
+                paragraph: 'The Framework Contract may not be subject to a total or partial transfer by the Account Holder in return for payment or free of charge. Thus, they are prohibited from transferring to any third party whatsoever the rights or obligations that it holds hereunder. In the event of breach of this prohibition, in addition to the immediate termination hereof, the Account Holder may be held responsible by the Service Provider.'
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Agreement in Relation to Proof',
+        titleNumber: '27.',
+        paragraphs: [
+            {
+                paragraph: 'All data will be included in unalterable, true and secured form on the technology database of the Service Provider specifically relative to Payment Orders and notifications sent, so as to constitute proof between the Parties unless there is proof to the contrary.'
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Territorial Scope of Application',
+        titleNumber: '28.',
+        paragraphs: [
+            {
+                paragraph: 'The provisions of the national Monetary and Financial Code apply when the Service Provider and the provider of payment services of the payer or a beneficiary of a payment operation debiting or crediting an Account are both located in the territory of Zimbabwe.'
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        title: 'Claims and Mediation',
+        titleNumber: '29.',
+        paragraphs: [
+            {
+                paragraph: 'The Account Holder is asked to address the Platform Customer Service, as indicated on the Site regarding any claim.'
+            },
+            {
+                paragraph: 'Any claim other than that established in Article 10 relating to entering into, performing or terminating the Framework Contract must be indicated by email to the following address: legal@appletreepayments.com.',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+            {
+                paragraph: 'The Account Holder accepts that the Service Provider will respond to their claims on Hard Copy format. The response will be issued as quickly as possible and at the latest within a time frame of fifteen (15) Business Days following the receipt of the claim by the Service Provider. However, for reasons outside of its control, the Service Provider may not be able to respond in this time frame of fifteen (15) days. In this event, it will provide the Account Holder with the response specifying the reasons for this additional time period as well as the date on which it will send the definitive response. In any case, the Account Holder shall receive a definitive response at the latest in a time frame of thirty-five (35) Business Days following the receipt of the claim.'
+            },
+            {
+                paragraph: 'The Account Holder is informed that the appointed Mediator will be one competent to settle disputes on an extrajudicial basis related to the performance of this Framework Contract. For more information and the conditions of such recourse, you may address the Platform Customer Service. Mediation requests must be addressed to the appointed Mediator and this, without prejudice to other legal actions. However, the mediator may not be approached if the request is manifestly unfounded or abusive, if the dispute has previously been settled or is in the process of being settled by another mediator or by a court, if the request to the mediator is provided within a time frame of longer than one year from the time of the written claim to the professional, or if the dispute does not fall within the mediator’s scope of competence.'
+            }
+        ]
+    },
+    {
+        title: 'Language - Applicable Law and Competent Jurisdiction',
+        titleNumber: '30.',
+        paragraphs: [
+            {
+                paragraph: 'With the exception of applying a law related to public order (which only applies in the strict limits of its purpose), is expressly stipulated that English is the language chosen and used by the Parties in their pre-contractual and contractual relationships and that the Framework Contract is subject to Zimbabwean law. Any dispute between the Parties regarding the latter shall be submitted to the jurisdiction of the competent Zimbabwean courts.'
+            },
+            {
+                paragraph: '',
+                points: [
+                    {
+                        point: ''
+                    },
+                ]
+            },
+        ]
     },
 ]

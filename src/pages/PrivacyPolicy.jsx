@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PolicyContainer from '../components/PolicyContainer'
 import { getPrivacyPolicy } from '../data/privacy-policy'
 import PolicyHeading from '../components/PolicyHeading'
@@ -9,6 +9,11 @@ import Footer from '../sections/Footer'
 
 const PrivacyPolicy = () => {
   const data = getPrivacyPolicy
+
+  useEffect(() => {
+    document.title = 'Privacy Policy'
+  }, [])
+
   return (
     <>
       <Header prefix='https://appletreepayments.com/' />

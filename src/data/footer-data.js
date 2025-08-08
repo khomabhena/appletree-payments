@@ -75,7 +75,7 @@ export const getFooterData = [
             },
             {
                 title: 'Terms And Conditions',
-                link: '#'
+                link: '/terms-and-conditions'
             },
             {
                 title: 'Prohibited Business',

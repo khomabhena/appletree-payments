@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { getProhibitedBusinesses } from '../data/prohibited-businesses'
 import PolicyContainer from '../components/PolicyContainer'
 import PolicyHeading from '../components/PolicyHeading'
@@ -10,6 +10,10 @@ import Footer from '../sections/Footer'
 const ProhibitedBusinesses = () => {
     const data = getProhibitedBusinesses
 
+    useEffect(() => {
+      document.title = 'Prohibited Businesses'
+    }, [])
+    
   return (
     <>
       <Header prefix='https://appletreepayments.com/' />

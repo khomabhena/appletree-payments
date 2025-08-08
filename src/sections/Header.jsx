@@ -2,10 +2,10 @@ import React from 'react'
 import Navigation from '../components/Navigation'
 import Hero from './Hero'
 
-const Header = () => {
+const Header = ({prefix = ''}) => {
   return (
     <header id='header'>
-        <Navigation />
+        <Navigation prefix={prefix} />
         <Hero />
     </header>
   )

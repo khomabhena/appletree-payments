@@ -20,9 +20,9 @@ const getPointerData = [
         title: "Integrate",
     },
     {
-        link: "https://docs.appletreepayments.com/wallet/index.php",
+        link: "https://docs.appletreepayments.com/integration/marketplace.php",
         image: "pointer-icons/pointer-icons-05.png",
-        title: "Platforms",
+        title: "Marketplaces",
     },
     {
         link: "https://docs.appletreepayments.com/invoice-api/index.php",

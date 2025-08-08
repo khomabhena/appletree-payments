@@ -54,7 +54,7 @@ export const getFooterData = [
             },
             {
                 title: 'Marketplace',
-                link: '#'
+                link: 'https://docs.appletreepayments.com/integration/marketplace.php'
             },
             {
                 title: 'E-Fulfillment',

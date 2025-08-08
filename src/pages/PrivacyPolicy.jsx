@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
   const data = getPrivacyPolicy
   return (
     <>
-      <Header />
+      <Header prefix='https://appletreepayments.com/' />
       <PolicyContainer title={"Privacy Policy"}>
         <h1 className=' text-xl md:text-2xl font-bold'>Privacy Policy</h1>
         {

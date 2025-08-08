@@ -12,7 +12,7 @@ const ProhibitedBusinesses = () => {
 
   return (
     <>
-      <Header />
+      <Header prefix='https://appletreepayments.com/' />
       <PolicyContainer title={"Prohibited Businesses"}>
         <h1 className=' text-xl md:text-2xl font-bold'>Prohibited Businesses</h1>
         {

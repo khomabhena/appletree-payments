@@ -16,7 +16,7 @@ const ContactUs = () => {
             <p className=' text-lg'>191 Enterprise Road</p>
             <p className=' text-lg'>Chisipite</p>
             <p className=' text-lg'>Harare</p>
-            <p className=' text-lg mt-8'>info@appletreepayments.com</p>
+            <p className=' text-lg mt-8'>info&#x40;appletreepayments&#46;com</p>
             <ul className=' flex gap-4 mt-2 py-2'>
                 <li><a target='_blank' href="https://facebook.com"><img width={'40px'} height={'40px'} src="/social-media/social-facebook.png" alt="facebook link" /></a></li>
                 <li><a target='_blank' href="https://instagram.com"><img width={'40px'} height={'40px'} src="/social-media/social-instagram.png" alt="instagram link" /></a></li>

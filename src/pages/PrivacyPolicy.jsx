@@ -4,12 +4,16 @@ import { getPrivacyPolicy } from '../data/privacy-policy'
 import PolicyHeading from '../components/PolicyHeading'
 import PolicyParagraph from '../components/PolicyParagraph'
 import PolicyPoints from '../components/PolicyPoints'
+import Header from '../sections/Header'
+import Footer from '../sections/Footer'
 
 const PrivacyPolicy = () => {
   const data = getPrivacyPolicy
   return (
     <>
+      <Header />
       <PolicyContainer title={"Privacy Policy"}>
+        <h1 className=' text-xl md:text-2xl font-bold'>Privacy Policy</h1>
         {
           data?.map(({title, titleNumber, paragraphs}) => (
             <>
@@ -30,6 +34,7 @@ const PrivacyPolicy = () => {
           ))
         }
       </PolicyContainer>
+      <Footer />
     </>
   )
 }

@@ -10,7 +10,7 @@ export const getPrivacyPolicy = [
                 paragraph: 'The entity processing your data is Appletree Digital Commerce, registered in Zimbabwe and governed by Zimbabwean law.'
             },
             {
-                paragraph: 'Appletree Payments has designated a data protection officer, a ï¿½DPOï¿½. You may contact the latter at the following email address: dpo@appletreepayments.com.'
+                paragraph: 'Appletree Payments has designated a data protection officer. You may contact the latter at the following email address: dpo@appletreepayments.com.'
             }
         ]
     },

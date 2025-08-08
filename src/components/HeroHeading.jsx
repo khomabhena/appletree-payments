@@ -15,7 +15,7 @@ const HeroHeading = () => {
         <br /><p></p><span style={{color: textColor}}>Digital</span>
         <span> Economy</span></h1>
         <section>
-            <p className=' text-gray-300 mt-2 mb-12 md:mt-8 text-xs md:text-sm lg:text-xl'>Your gateway to Africa's digital economy, enabling seamless<br />collections and payouts across the continent and beyond</p>
+            <p className=' text-gray-300 mt-2 mb-8 md:mb-8 md:mt-8 text-xs md:text-sm lg:text-xl'>Your gateway to Africa's digital economy, enabling seamless<br />collections and payouts across the continent and beyond</p>
           </section>
       
       <section className=' w-full'>
@@ -23,7 +23,7 @@ const HeroHeading = () => {
             <p className=' text-gray-400 mt-4 md:mt-8 text-xs md:text-sm lg:text-base'>For: Websites | Apps | Crowdfunding | Marketplaces | Platforms | Fintechs</p>
           </section>
 
-          <div className=' flex gap-4 mt-8 mb-8'>
+          <div className=' flex mt-8 mb-4'>
             {
               data?.map(({image, link, title}) => (
                 <HeroIcons image={image} title={title} link={link} />

@@ -4,6 +4,7 @@ import Container from './pages/Container'
 import MyContext from './context/MyContext'
 import { Route, Routes } from 'react-router-dom'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import ProhibitedBusinesses from './pages/ProhibitedBusinesses'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Container />} />
         <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+        <Route path='/prohibited-businesses' element={<ProhibitedBusinesses />} />
       </Routes>
     </MyContext.Provider>
     </>

@@ -79,7 +79,7 @@ export const getFooterData = [
             },
             {
                 title: 'Prohibited Business',
-                link: '#'
+                link: '/prohibited-businesses'
             },
         ]
     },

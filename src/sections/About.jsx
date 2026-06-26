@@ -10,7 +10,7 @@ const About = () => {
 
       <p className=' px-8 lg:px-24 mt-2 text-center text-sm md:text-lg lg:text-xl font-extralight'> Appletree Payments provides end-to-end global commerce tools that merchants need to build businesses, accept payments and enable commerce for their users on Websites, 
 Mobile Apps, Crowdfunding Apps, Marketplaces, Platforms and Fintechs.</p><br />
- <p className=' px-8 lg:px-24 text-center text-sm md:text-lg lg:text-xl font-extralight'>With an Africa rst strategy, we give innovators next-gen payment solutions and enable merchants in 79+ Countries to accept, split payments and automate payouts online in 
+ <p className=' px-8 lg:px-24 text-center text-sm md:text-lg lg:text-xl font-extralight'>With an Africa 1st strategy, we give innovators next-gen payment solutions and enable merchants in 79+ Countries to accept, split payments and automate payouts online in 
 100+ currencies and multiple payment methods.</p><br />
  <p className=' px-8 lg:px-24 text-center text-sm md:text-lg lg:text-xl font-extralight'>Our developer-friendly API and White-Label solutions can be easily integrated into any design to power payments: Websites, Apps, Marketplaces, Platforms and Fintechs.</p>
     
